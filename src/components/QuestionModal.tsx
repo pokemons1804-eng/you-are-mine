@@ -100,10 +100,15 @@ const QuestionModal = ({ isOpen, onClose, day, onUnlock, isCompleted = false }: 
               </div>
               
               {!isCompleted && (
-                <div className="flex items-center justify-center gap-2 text-rose-light">
-                  <Heart className="w-4 h-4 fill-current" />
-                  <p className="text-sm text-muted-foreground">Click ✕ above to continue to the next day</p>
-                  <Heart className="w-4 h-4 fill-current" />
+                <div className="text-center">
+                  <p className="font-script text-xl text-rose-light leading-relaxed">
+                    Hanji, to kaisa laga?? 💕<br />
+                    Happy?? want more???<br />
+                    <span className="text-primary font-bold">wait for a day!!!!!</span>
+                  </p>
+                  <p className="text-xs text-muted-foreground mt-3">
+                    (Click ✕ above to close)
+                  </p>
                 </div>
               )}
             </div>
