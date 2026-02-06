@@ -33,7 +33,7 @@ const Header = () => {
         </h1>
         
         <p className="font-script text-3xl md:text-4xl text-gradient mb-2">
-          For My Dearest <span className="inline-block transition-all duration-500">{names[currentNameIndex]}</span>
+          For My <span className="inline-block transition-all duration-500">{names[currentNameIndex]}</span>
         </p>
 
         <p className="text-muted-foreground text-lg">
